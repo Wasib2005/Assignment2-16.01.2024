@@ -1,0 +1,45 @@
+/* Online css */
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+/* Common styles */
+body {
+  max-width: 1440px;
+  font-family: Mulish;
+  margin: auto;
+  color: #424247;
+}
+.title {
+  align-items: center;
+  height: 100%;
+  display: flex;
+  color: #131318;
+  font-size: 2rem;
+  font-weight: 800;
+}
+.inline-color {
+  color: #ff5400;
+}
+
+/* nav styles */
+nav {
+  align-items: center;
+  display: flex;
+  padding: 52px 135px 49px 135px;
+  justify-content: space-between;
+}
+nav ul {
+  display: flex;
+  gap: 44px;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #424247;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+
