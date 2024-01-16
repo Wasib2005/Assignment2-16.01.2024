@@ -31,6 +31,9 @@ nav ul {
   display: flex;
   gap: 44px;
 }
+nav ul img{
+    display: none;
+}
 nav ul li {
   list-style: none;
 }
@@ -43,3 +46,24 @@ nav ul li a {
 }
 
 
+/* I use data from 
+https://getbootstrap.com/docs/5.0/layout/breakpoints/ */
+
+/* For mobile */
+@media screen and (max-width: 576px) {
+
+    nav{
+        padding: 20px;
+    }
+    nav ul>li{
+        display: none;
+        
+    }
+    nav ul img{
+        display: inline;
+    }
+    nav ul img:hover + li{
+        /* Seen like i didn't completely understand hover*/
+        display: block;  
+    }
+}
