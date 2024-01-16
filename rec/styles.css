@@ -20,17 +20,14 @@ body {
   color: #ff5400;
 }
 .common-button {
-  border: none;
   border-radius: 8px;
   background: #ff5400;
   width: 174px;
   height: 52px;
-  display: flex;
-  align-items: center;
+  border: none;
   color: #fff;
-  font-weight: 700;
-  gap: 8px;
-  padding: 16px 34px;
+  font-size: 1.2rem;
+  font-weight: 600;
 }
 
 /* nav styles */
@@ -56,6 +53,19 @@ nav ul li a {
   text-align: center;
   font-size: 1.2rem;
   font-weight: 400;
+}
+.nav-button-1{
+    border: none;
+    border-radius: 8px;
+    background: #ff5400;
+    width: 174px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-weight: 700;
+    gap: 8px;
+    padding: 16px 34px;
 }
 
 /* main */
@@ -117,6 +127,23 @@ nav ul li a {
 }
 
 /* section2 */
+.section-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 100px 135px;
+}
+.section-2-title {
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+.section-2-contain {
+  width: 577px;
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 26px;
+}
 
 
 /* I use data from 
