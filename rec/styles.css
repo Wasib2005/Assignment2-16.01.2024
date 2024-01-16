@@ -119,54 +119,15 @@ nav ul li a {
 /* section2 */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* I use data from 
 https://getbootstrap.com/docs/5.0/layout/breakpoints/ */
 
-
-
-
-
-
-
-
-
-
-
 /* For mobile */
 @media screen and (max-width: 576px) {
-    /* common styles change */
-    .common-button{
-        width: 100%;
-    }
-
+  /* common styles change */
+  .common-button {
+    width: 100%;
+  }
 
   /* nav style  */
   nav {
@@ -201,25 +162,22 @@ https://getbootstrap.com/docs/5.0/layout/breakpoints/ */
     width: 305px;
     color: #fff;
     text-align: center;
-    font-size: .9rem;
+    font-size: 0.9rem;
     font-weight: 400;
     line-height: 21px;
     padding: 0px 15px 32px 15px;
   }
- .section-1-form-container{
+  .section-1-form-container {
     margin: 0px 24px 32px 24px;
     padding: 1px;
     width: 255px;
- }
+  }
 
- .section-1-form{
+  .section-1-form {
     flex-direction: column;
     padding: 16px;
-
- }
- .section-1-form-item{
+  }
+  .section-1-form-item {
     width: 100%;
- }
-
-
+  }
 }
