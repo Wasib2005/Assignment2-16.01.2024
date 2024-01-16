@@ -54,18 +54,18 @@ nav ul li a {
   font-size: 1.2rem;
   font-weight: 400;
 }
-.nav-button-1{
-    border: none;
-    border-radius: 8px;
-    background: #ff5400;
-    width: 174px;
-    height: 52px;
-    display: flex;
-    align-items: center;
-    color: #fff;
-    font-weight: 700;
-    gap: 8px;
-    padding: 16px 34px;
+.nav-button-1 {
+  border: none;
+  border-radius: 8px;
+  background: #ff5400;
+  width: 174px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-weight: 700;
+  gap: 8px;
+  padding: 16px 34px;
 }
 
 /* main */
@@ -144,6 +144,46 @@ nav ul li a {
   font-weight: 400;
   line-height: 26px;
 }
+
+/* section-3 */
+
+.section-3{
+  padding-left:135px ;
+}
+
+.section-3-image-row{
+  display: flex;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+
+.section-3-image{
+  position: relative;
+  text-align: center;
+}
+
+.section-3-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 800;
+  fill: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%);
+}
+
+.section-3-image-container{
+  
+}
+
+
+
+
+
+
+
+
 
 
 /* I use data from 
