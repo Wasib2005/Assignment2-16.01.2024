@@ -29,7 +29,7 @@ body {
   align-items: center;
   color: #fff;
   font-weight: 700;
-  gap: 8px ;
+  gap: 8px;
   padding: 16px 34px;
 }
 
@@ -99,10 +99,10 @@ nav ul li a {
   background: rgba(255, 255, 255, 0.3);
   margin: 0px 185px 106px 185px;
 }
-.section-1-form{
-    display: flex;
-    gap: 16px;
-    align-items: center;
+.section-1-form {
+  display: flex;
+  gap: 16px;
+  align-items: center;
 }
 .section-1-form-item {
   border-radius: 8px;
@@ -121,8 +121,15 @@ https://getbootstrap.com/docs/5.0/layout/breakpoints/ */
 
 /* For mobile */
 @media screen and (max-width: 576px) {
+    /* common styles change */
+    .common-button{
+        width: 100%;
+    }
+
+
+  /* nav style  */
   nav {
-    padding: 20px;
+    padding: 20px 20px 0px 20px;
   }
   nav ul > li {
     display: none;
@@ -134,6 +141,46 @@ https://getbootstrap.com/docs/5.0/layout/breakpoints/ */
     /* Seen like i didn't completely understand hover*/
     display: block;
   }
+
+  /* section-1 styles  */
+  .section-1 {
+    margin-top: -30 px;
+    width: 335px;
+    height: 500px;
+    flex-shrink: 0;
+  }
+
+  .section-1-title {
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 800;
+    padding: 32px 63px 8px 63px;
+  }
+  .section-1-contain {
+    width: 305px;
+    color: #fff;
+    text-align: center;
+    font-size: .9rem;
+    font-weight: 400;
+    line-height: 21px;
+    padding: 0px 15px 32px 15px;
+  }
+ .section-1-form-container{
+    margin: 0px 24px 32px 24px;
+    padding: 1px;
+    width: 255px;
+ }
+
+ .section-1-form{
+    flex-direction: column;
+    padding: 16px;
+
+ }
+ .section-1-form-item{
+    width: 100%;
+ }
+
+
 }
 /* For table */
 @media screen and (min-width: 577px) and (max-width: 992px) {
