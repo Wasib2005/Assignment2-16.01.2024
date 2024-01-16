@@ -8,6 +8,24 @@ body {
   margin: auto;
   color: #424247;
 }
+.section-common-title {
+  color: #131318;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+}
+.section-common-contain {
+  width: 643px;
+  text-align: center;
+  font-size: 16px;
+  margin: auto;
+  font-weight: 400;
+  line-height: 26px;
+  padding-bottom: 48px;
+}
+
+
+/* uncommon css */
 .title {
   align-items: center;
   height: 100%;
@@ -147,17 +165,17 @@ nav ul li a {
 
 /* section-3 */
 
-.section-3{
-  padding-left:135px ;
+.section-3 {
+  padding-left: 135px;
 }
 
-.section-3-image-row{
+.section-3-image-row {
   display: flex;
   gap: 24px;
   margin-bottom: 24px;
 }
 
-.section-3-image{
+.section-3-image {
   position: relative;
   text-align: center;
 }
@@ -170,21 +188,15 @@ nav ul li a {
   color: #fff;
   font-size: 2rem;
   font-weight: 800;
-  fill: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%);
+  fill: linear-gradient(
+    0deg,
+    rgba(19, 19, 24, 0.2) 0%,
+    rgba(19, 19, 24, 0.2) 100%
+  );
 }
 
-.section-3-image-container{
-  
+.section-3-image-container {
 }
-
-
-
-
-
-
-
-
-
 
 /* I use data from 
 https://getbootstrap.com/docs/5.0/layout/breakpoints/ */
@@ -246,5 +258,10 @@ https://getbootstrap.com/docs/5.0/layout/breakpoints/ */
   }
   .section-1-form-item {
     width: 100%;
+  }
+
+  /* section-2 styles  */
+  .section-2 {
+    flex-direction: column;
   }
 }
