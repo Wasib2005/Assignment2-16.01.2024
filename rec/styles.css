@@ -116,8 +116,49 @@ nav ul li a {
   font-weight: 400;
 }
 
+/* section2 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* I use data from 
 https://getbootstrap.com/docs/5.0/layout/breakpoints/ */
+
+
+
+
+
+
+
+
+
+
 
 /* For mobile */
 @media screen and (max-width: 576px) {
@@ -181,10 +222,4 @@ https://getbootstrap.com/docs/5.0/layout/breakpoints/ */
  }
 
 
-}
-/* For table */
-@media screen and (min-width: 577px) and (max-width: 992px) {
-  nav {
-    display: block;
-  }
 }
