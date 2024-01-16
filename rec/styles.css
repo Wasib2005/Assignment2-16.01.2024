@@ -24,7 +24,6 @@ body {
   padding-bottom: 48px;
 }
 
-
 /* uncommon css */
 .title {
   align-items: center;
@@ -34,7 +33,7 @@ body {
   font-size: 2rem;
   font-weight: 800;
 }
-.inline-color {
+.orange {
   color: #ff5400;
 }
 .common-button {
@@ -195,73 +194,55 @@ nav ul li a {
   );
 }
 
-.section-3-image-container {
+.section-4 {
+  padding: 100px;
+}
+.section-4-card {
+  padding: 32px;
+  width: 573px;
+  height: 284px;
+}
+.section-4-card > h4 {
+  color: #131318;
+  font-size: 24px;
+  font-weight: 800;
+}
+.section-4-card > p{
+  width: 486px;
+  color: #5A5A5D;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
 }
 
-/* I use data from 
-https://getbootstrap.com/docs/5.0/layout/breakpoints/ */
+.section-4-card-1 {
+  border-radius: 16px;
+  border: 1px solid rgba(251, 181, 99, 0.2);
+  background: rgba(251, 181, 99, 0.05);
+}
 
-/* For mobile */
-@media screen and (max-width: 576px) {
-  /* common styles change */
-  .common-button {
-    width: 100%;
-  }
+.section-4-card-2 {
+  border-radius: 16px;
+  border: 1px solid rgba(41, 206, 246, 0.2);
+  background: rgba(41, 206, 246, 0.05);
+}
+.section-4-card-3 {
+  border-radius: 16px;
+  border: 1px solid rgba(233, 68, 68, 0.2);
+  background: rgba(233, 68, 68, 0.05);
+}
+.section-4-card-row-1{
+  display: flex;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+.section-4-card-row-2{
+  margin-left: 298px;
+}
 
-  /* nav style  */
-  nav {
-    padding: 20px 20px 0px 20px;
-  }
-  nav ul > li {
-    display: none;
-  }
-  nav ul img {
-    display: inline;
-  }
-  nav ul img:hover + li {
-    /* Seen like i didn't completely understand hover*/
-    display: block;
-  }
+/* section 5 */
+.section-5-body-container{
 
-  /* section-1 styles  */
-  .section-1 {
-    margin-top: -30 px;
-    width: 335px;
-    height: 500px;
-    flex-shrink: 0;
-  }
-
-  .section-1-title {
-    color: #fff;
-    font-size: 1.4rem;
-    font-weight: 800;
-    padding: 32px 63px 8px 63px;
-  }
-  .section-1-contain {
-    width: 305px;
-    color: #fff;
-    text-align: center;
-    font-size: 0.9rem;
-    font-weight: 400;
-    line-height: 21px;
-    padding: 0px 15px 32px 15px;
-  }
-  .section-1-form-container {
-    margin: 0px 24px 32px 24px;
-    padding: 1px;
-    width: 255px;
-  }
-
-  .section-1-form {
-    flex-direction: column;
-    padding: 16px;
-  }
-  .section-1-form-item {
-    width: 100%;
-  }
-
-  /* section-2 styles  */
-  .section-2 {
-    flex-direction: column;
-  }
 }
