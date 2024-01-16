@@ -6,6 +6,7 @@ body {
   margin: auto;
   width: 1440px;
   color: #424247;
+  font-family: Mulish;
 }
 .section-common-title {
   color: #131318;
@@ -447,6 +448,7 @@ nav ul li a {
 
 /* footer */
 footer {
+  font-family: Mulish;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -462,7 +464,8 @@ footer {
 
 footer p {
   width: 769px;
-  color: #5a5a5d;color: #5A5A5D;
+  color: #5a5a5d;
+  color: #5a5a5d;
   text-align: center;
   font-weight: 400;
   line-height: 26px;
@@ -470,6 +473,88 @@ footer p {
   line-height: 26px;
   padding-bottom: 33px;
 }
-footer > img{
+footer > img {
   margin-bottom: 100px;
+}
+
+/* I take "@media screen and (min-width: 600px)"  from "https://www.w3schools.com/howto/howto_css_media_query_breakpoints.asp" */
+@media screen and (max-width: 600px) {
+  /* nav  */
+  body {
+    width: 375px;
+    margin: auto;
+  }
+  nav {
+    width: 375px;
+    height: 64px;
+    padding: 15px;
+  }
+  nav h3 {
+    font-size: 21.543px;
+    font-weight: 800;
+  }
+  nav li {
+    display: none;
+  }
+  nav ul img {
+    display: inline;
+  }
+
+  .section-1 {
+    border: none;
+    border-radius: 16px;
+
+    background: linear-gradient(
+        180deg,
+        rgba(19, 19, 24, 0.8) 0%,
+        rgba(19, 19, 24, 0) 100%
+      ),
+      url(Images/1.png);
+    background-position: center;
+    width: 335px;
+    height: 483px;
+    margin: auto;
+    background-repeat: no-repeat;
+  }
+  .section-1-title {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 800;
+    padding: 32px 64px 8px 64px;
+  }
+  .section-1-contain {
+    width: 304px;
+    color: #fff;
+    text-align: center;
+    font-weight: 200;
+    line-height: 20px;
+    padding: 0px 16px 0px 16px;
+  }
+  .section-1-form-container {
+    margin-left: 24px;
+    width: 287px;
+    padding: 16px;
+    gap: 16px;
+  }
+  .section-1-form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+  }
+  .section-1-form-item {
+    border-radius: 8px;
+    background: #fff;
+    width: 255px;
+    height: 52px;
+    border: none;
+    /* text style  */
+    color: rgba(19, 19, 24, 0.5);
+    font-weight: 400;
+    padding-left: 16px;
+  }
+  .nav-button-1 {
+    width: 255px;
+    height: 52px;
+  }
 }
