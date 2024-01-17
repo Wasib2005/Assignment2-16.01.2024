@@ -532,7 +532,7 @@ footer > img {
   }
   .section-1-form-container {
     margin-left: 24px;
-    width: 287px;
+    width: 260px;
     padding: 16px;
     gap: 16px;
   }
@@ -557,4 +557,95 @@ footer > img {
     width: 255px;
     height: 52px;
   }
+  .section-2 {
+    flex-direction: column;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    margin: auto;
+  }
+  .section-2-title {
+    font-size: 20px;
+    font-weight: 800;
+  }
+  .section-2-contain {
+    width: 330px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+  .section-2 img {
+    padding-top: 24px;
+    width: 335px;
+  }
+  .section-common-title {
+    font-size: 20px;
+  }
+  .section-3 {
+    padding-left: 0px;
+    margin: auto;
+  }
+  .section-common-contain {
+    width: 309px;
+  }
+  .section-3 img {
+    width: 335px;
+    height: 176px;
+  }
+  .section-3-image-row {
+    flex-direction: column;
+    gap: 16px;
+  }
+  .section-4 {
+    padding: 0px;
+    padding-top: 14px;
+    margin: auto;
+    padding-bottom: 24px;
+  }
+  .section-4-card {
+    width: 335px;
+    height: 330px;
+    font-size: 20px;
+  }
+  .section-4-card p {
+    width: 271px;
+  }
+  .section-4-card-row-1 {
+    flex-direction: column;
+  }
+  .section-4-card-row-2 {
+    margin: auto;
+  }
+
+  .section-5-body-container,
+  .section-5-body-container-1 {
+    width: 335px;
+  }
+  .section-5-head {
+    flex-wrap: wrap;
+    gap: 1px;
+    padding-top: 10px;
+  }
+  .section-5-body-card,
+  .section-5-body-card-1 {
+    padding: 20px;
+    margin-left: 16px;
+    width: 240px;
+    flex-shrink: 0;
+  }
+  .section-5-body-p {
+    width: 254px;
+    display: -webkit-box;
+                                    /* i didn't completely understand this but i fine it online without useing it page look not so good */
+    -webkit-box-orient: vertical; 
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+  }
+  .section-5-button{
+    margin: auto;
+    margin-left: 90px;
+    margin-bottom: 24px;
+  }
+  
+
+
 }
