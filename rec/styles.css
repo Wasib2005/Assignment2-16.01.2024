@@ -635,17 +635,103 @@ footer > img {
   .section-5-body-p {
     width: 254px;
     display: -webkit-box;
-                                    /* i didn't completely understand this but i fine it online without useing it page look not so good */
-    -webkit-box-orient: vertical; 
+    /* i didn't completely understand this but i fine it online without useing it page look not so good */
+    -webkit-box-orient: vertical;
     overflow: hidden;
     -webkit-line-clamp: 2;
   }
-  .section-5-button{
+  .section-5-button {
     margin: auto;
     margin-left: 90px;
     margin-bottom: 24px;
   }
-  
 
-
+  .section-6 {
+    margin: auto;
+    flex-direction: column;
+  }
+  .section-6-title {
+    width: 248px;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 30px;
+  }
+  .section-6-p {
+    width: 335px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+  .section-6-list {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    width: 335px;
+  }
+  .section-6-img {
+    padding-top: 24px;
+    width: 335px;
+    height: 200px;
+    padding-bottom: 24px;
+  }
+  .section-7 {
+    margin: auto;
+    margin-top: 24px;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .section-7-text {
+    font-size: 20px;
+    margin: auto;
+    width: 305px;
+    height: 353px;
+    padding: 24px;
+  }
+  .section-7-p {
+    width: 270px;
+    padding-bottom: 0px;
+  }
+  .section-7-box {
+    width: 288px;
+    height: 52px;
+  }
+  .section-7-button {
+    width: 288px;
+    height: 52px;
+  }
+  .section-7-img-button {
+    width: 350px;
+    height: 300px;
+    margin: auto;
+  }
+  .section-7-tc {
+    font-size: 15.854px;
+  }
+  .section-7-70 {
+    font-size: 21.138px;
+  }
+  .section-7-button-1 {
+    width: 214.023px;
+    height: 79.268px;
+    margin-top: 189px;
+    margin-left: 129px;
+  }
+  footer {
+    margin-top: 24px;
+    padding: 32px;
+  }
+  .footer-title{
+    padding: 0;
+  }
+  footer p{
+    width: 287px;
+    font-size: 14px;
+  }
+  footer img{
+    margin-top: 0px;
+    margin-bottom: 48px;
+  }
+  .copy{
+    margin-bottom: 30px;
+  }
 }
